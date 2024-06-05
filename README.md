@@ -14,17 +14,12 @@
 
 # Part 1: Manual Testing Part
 ## Contents
-- [Mind Map](#mind-map)
 - [Bug Reporting](#bug-reporting)
 - [Test Case writing](#test-case-writing)
 - [Bug Report](#bug-report)
 - [Test Metrics](#test-metrics)
 
 
-### Mind Map
-There are modules and sub-modules inside the mindmap, which can also be called categories and sub-categories. The green boxes represent categories, the white boxes represent subcategories, and the yellow boxes represent nested subcategories.
-
-![Daraz](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/045388d4-00ef-40b3-883c-c074e4d4290e)
 
 
 ### Report
@@ -56,57 +51,17 @@ The number of bugs discovered in test case writing is concentrated in this secti
 
 # Part 2: Coding Part
 ## Content
-Inside Coding folder there is one Folder and a Test file
+Inside the Coding folder, there is one Folder and a Test file
 - [Task Folder](#task-folder)
 - [word.txt](#word.txt)
 
 ## Task folder: 
 **Code file Location** - Coding/Task/src/WordCount.java
 
-## Coding Overview:
-### Importing Statements
-import java.io.BufferedReader; <br />
-import java.io.File; <br />
-import java.io.FileReader; <br />
-import java.util.*; <br />
 
-**BufferedReader, File, FileReader:** Used for reading the file.
+## word.txt file:
+Contain a few random words for the code run process
 
-### Main Class and Method
-public class WordCount { <br />
-    public static void main(String[] args) throws Exception { <br />
-        File file = new File("F:\\SQA FILE\\PROJECTS\\Internship Projects\\Mahfil - Steadfast IT\\Coding\\word.txt"); <br />
-        BufferedReader reader = new BufferedReader(new FileReader(file)); <br />
 
-**File:** Represents the file to be read <br />
-**BufferedReader:** Reads the file line by line for efficient processing <br />
-
-### Creating the Word Count Map using HashMap
- Map<String, Integer> map = new HashMap<>(); <br />
-        String line; <br />
-
-**map:** A HashMap to store words as keys and their counts as values. <br />
--**line:** A temporary variable to store each line read from the file. <br />
-
-### Reading the File and Counting Words
- while ((line = reader.readLine()) != null) { <br />
-            String[] words = line.split("\\W+"); <br />
-            for (int i = 0; i < words.length; i++) { <br />
-                String word = words[i]; <br />
-                if (!word.isEmpty()) { <br />
-                    word = word.toLowerCase(); <br />
-                    int count = map.getOrDefault(word, 0); <br />
-                    map.put(word, count + 1); <br />
-                } <br />
-            } <br />
-        } <br />
-        reader.close(); <br />
-
-**while ((line = reader.readLine()) != null):** Reads each line from the file until the end. <br />
-**line.split("\W+"):** Splits the line into words using a regular expression that matches non-word characters. <br />
-**for (int i = 0; i < words.length; i++):** Iterates over each word in the line. <br />
-**if (!word.isEmpty()):** Ensures empty strings are not processed. <br />
-**word.toLowerCase():** Converts the word to lowercase to make the count case insensitive. <br />
-**map.getOrDefault(word, 0):** Retrieves the current count of the word, or 0 if the word is not in the map. <br />
-**map.put(word, count + 1):** Updates the count of the word in the map. <br />
-**reader.close():** Closes the BufferedReader to release system resources. <br />
+# Part 3: Bug Photos Part
+This folder contains the bugs found while testing the Mahfil App
