@@ -61,7 +61,7 @@ Inside Coding folder there is one Folder and a Test file
 - [word.txt](#word.txt)
 
 ## Task folder: 
-- **Code file Location** - Coding/Task/src/WordCount.java
+**Code file Location** - Coding/Task/src/WordCount.java
 
 ## Coding Overview:
 ### Importing Statements
@@ -70,7 +70,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.util.*;
 
--**BufferedReader, File, FileReader:** Used for reading the file.
+**BufferedReader, File, FileReader:** Used for reading the file.
 
 ### Main Class and Method
 public class WordCount {
@@ -102,7 +102,7 @@ public class WordCount {
         }
         reader.close();
 
--**while ((line = reader.readLine()) != null):** Reads each line from the file until the end.
+**while ((line = reader.readLine()) != null):** Reads each line from the file until the end. \n
 -**line.split("\W+"):** Splits the line into words using a regular expression that matches non-word characters.
 -**for (int i = 0; i < words.length; i++):** Iterates over each word in the line.
 -**if (!word.isEmpty()):** Ensures empty strings are not processed.
