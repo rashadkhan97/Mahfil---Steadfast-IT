@@ -35,23 +35,22 @@ There are modules and sub-modules inside the mindmap, which can also be called c
 
 ### Test Case Writing
 Test case software was used to write a document: **Microsoft Excel**. 
-<br>Here, **The total no of test cases written is - 80**  </br> **No of test case pass - 75** <br>**No of test cases failed - 5**. Also, some improvement details are given.</br>
+<br>Here, **The total no of test cases written is - 42**  </br> **No of test case pass - 33** <br>**No of test cases failed - 9**. Also, some improvement details are given.</br>
 <br> Check out these photos of test case writing --- </br>
 
-![wr1](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/0b95b583-60a6-4e4a-8799-71595675e24e)
-
-![wr2](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/2c7c8329-e282-4060-8d1f-787b0d727b6f)
-
-![wr3](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/4f1c24ea-4c4b-427f-80a2-98053b81b0f8)
-
-![wr4](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/395fd4f1-eecc-45f1-be2f-359f1f13d1cb)
+![image](https://github.com/rashadkhan97/Mahfil---Steadfast-IT/assets/76771109/c504e51d-ce4e-4ae4-b267-3fca3e90e218)
+![image](https://github.com/rashadkhan97/Mahfil---Steadfast-IT/assets/76771109/20979c49-5628-45b7-8bbc-38646fe2dc97)
+![image](https://github.com/rashadkhan97/Mahfil---Steadfast-IT/assets/76771109/ac915af6-b30f-4fa5-857c-44439bd85dc1)
+![image](https://github.com/rashadkhan97/Mahfil---Steadfast-IT/assets/76771109/f45e7165-9af7-48b6-9310-3e47e84c8067)
+![image](https://github.com/rashadkhan97/Mahfil---Steadfast-IT/assets/76771109/df27042f-3967-4b13-98d4-de064184e8f3)
 
 ### Bug Reporting
-The number of bugs discovered in test case writing is concentrated in this section. As we already know from the previous section (Test Case Writing), 5 test cases failed. **#SL-5,9,14,21,34** denotes the errors identified and written on those rows in the five bug reporting boxes below.
+The number of bugs discovered in test case writing is concentrated in this section. As we already know from the previous section (Test Case Writing), 9 test cases failed. **#SL-11,13, 21, 22, 26, 30, 55, 64, 66** denotes the errors identified and written on those rows in the five bug reporting boxes below.
 
 ![image](https://github.com/rashadkhan97/Mahfil---Steadfast-IT/assets/76771109/1dcb0a2e-a087-4c37-b212-33611fb71a31)
 
 
 ### Test Metrics
 
-![test matrix](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/6a2d6ba0-0acd-4a4c-aa41-c3c96245fa3e)
+![image](https://github.com/rashadkhan97/Mahfil---Steadfast-IT/assets/76771109/da54a512-53d2-4930-86c6-94d84da3b550)
+
