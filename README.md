@@ -1,9 +1,10 @@
 # Documentation For Mahfil App & Coding Task 
 
 ## Folders
-- [Bug Photos:](#bug-photos) Folder containing the pictures/screenshots of the bug found while testing the App called Mahfil
-- [Coding:](#coding) Folder containing coding task part along with a txt file
 - [Manual Testing:](#manual-testing)  Folder containing testing files for Mahfil App
+- [Coding:](#coding) Folder containing coding task part along with a txt file
+- [Bug Photos:](#bug-photos) Folder containing the pictures/screenshots of the bug found while testing the App called Mahfil
+
 
 ## Software 
 - [Xmind](https://xmind.app): For Mindmap Design for the app
@@ -11,14 +12,15 @@
 - [Google Chrome](https://www.google.com/chrome): For testing and finding bugs. You can use any other web application.
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/?section=windows) For coding purpose. Download the community version for free use.
 
-# Contents
+# Part 1: Manual Testing Part
+## Contents
 - [Mind Map](#mind-map)
 - [Bug Reporting](#bug-reporting)
 - [Test Case writing](#test-case-writing)
 - [Bug Report](#bug-report)
 - [Test Metrics](#test-metrics)
 
-# Part 1: Manual Testing Part
+
 ### Mind Map
 There are modules and sub-modules inside the mindmap, which can also be called categories and sub-categories. The green boxes represent categories, the white boxes represent subcategories, and the yellow boxes represent nested subcategories.
 
@@ -52,3 +54,8 @@ The number of bugs discovered in test case writing is concentrated in this secti
 
 ![image](https://github.com/rashadkhan97/Mahfil---Steadfast-IT/assets/76771109/da54a512-53d2-4930-86c6-94d84da3b550)
 
+# Part 2: Coding Part
+## Content
+Inside Coding folder there is one Folder and a Test file
+- [Task Folder](#task-folder)
+- [word.txt](#word.txt)
