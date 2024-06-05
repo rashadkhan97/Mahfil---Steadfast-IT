@@ -59,3 +59,54 @@ The number of bugs discovered in test case writing is concentrated in this secti
 Inside Coding folder there is one Folder and a Test file
 - [Task Folder](#task-folder)
 - [word.txt](#word.txt)
+
+## Task folder: 
+- **Code file Location** - Coding/Task/src/WordCount.java
+
+## Coding Overview:
+### Importing Statements
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.util.*;
+
+-**BufferedReader, File, FileReader:** Used for reading the file.
+
+### Main Class and Method
+public class WordCount {
+    public static void main(String[] args) throws Exception {
+        File file = new File("F:\\SQA FILE\\PROJECTS\\Internship Projects\\Mahfil - Steadfast IT\\Coding\\word.txt");
+        BufferedReader reader = new BufferedReader(new FileReader(file));
+
+-**File:** Represents the file to be read
+-**BufferedReader:** Reads the file line by line for efficient processing
+
+### Creating the Word Count Map using HashMap
+ Map<String, Integer> map = new HashMap<>();
+        String line;
+
+-**map:** A HashMap to store words as keys and their counts as values.
+-**line:** A temporary variable to store each line read from the file.
+
+### Reading the File and Counting Words
+ while ((line = reader.readLine()) != null) {
+            String[] words = line.split("\\W+");
+            for (int i = 0; i < words.length; i++) {
+                String word = words[i];
+                if (!word.isEmpty()) {
+                    word = word.toLowerCase();
+                    int count = map.getOrDefault(word, 0);
+                    map.put(word, count + 1);
+                }
+            }
+        }
+        reader.close();
+
+-**while ((line = reader.readLine()) != null):** Reads each line from the file until the end.
+-**line.split("\W+"):** Splits the line into words using a regular expression that matches non-word characters.
+-**for (int i = 0; i < words.length; i++):** Iterates over each word in the line.
+-**if (!word.isEmpty()):** Ensures empty strings are not processed.
+-**word.toLowerCase():** Converts the word to lowercase to make the count case-insensitive.
+-**map.getOrDefault(word, 0):** Retrieves the current count of the word, or 0 if the word is not in the map.
+-**map.put(word, count + 1):** Updates the count of the word in the map.
+-**reader.close():** Closes the BufferedReader to release system resources.
