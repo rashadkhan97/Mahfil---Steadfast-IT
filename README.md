@@ -1,18 +1,17 @@
 # Documentation For Mahfil App & Coding Task 
 
 ## Folders
-- [Bug Photos](#bug-photos) Folder containing the pictures/screenshots of the bug found while testing the App called Mahfil
-- [Coding](#coding) Folder containing coding task part along with a txt file
--  [Manual Testing](#manual-testing)  Folder containing testing files for Mahfil App
-
-## Installation Guide 
+- [Bug Photos:](#bug-photos) Folder containing the pictures/screenshots of the bug found while testing the App called Mahfil
+- [Coding:](#coding) Folder containing coding task part along with a txt file
+- [Manual Testing:](#manual-testing)  Folder containing testing files for Mahfil App
 
 ## Software 
-- [Xmind](https://xmind.app): For Mindmap Design
+- [Xmind](https://xmind.app): For Mindmap Design for the app
 - [Excel](): For writing test cases and other contents
 - [Google Chrome](https://www.google.com/chrome): For testing and finding bugs. You can use any other web application.
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/download/?section=windows) For coding purpose. Download the community version for free use.
 
-## Contents
+# Contents
 - [Test Plan](#test-plan) 
 - [Mind Map](#mind-map)
 - [Report](#report)
