@@ -12,18 +12,15 @@
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/?section=windows) For coding purpose. Download the community version for free use.
 
 # Contents
-- [Test Plan](#test-plan) 
 - [Mind Map](#mind-map)
 - [Report](#report)
 - [Test Case writing](#test-case-writing)
 - [Bug Report](#bug-report)
 - [Test Metrics](#test-metrics)
 
-### Test Plan
-![test plan](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/b1e724f2-db5e-42e7-8c72-392c73cad9c9)
 
 ### Mind Map
-There are modules and sub-modules inside the mindmap, which can also be referred to as categories and sub-categories. The green boxes represent categories, the white boxes represent subcategories, and the yellow boxes represent nested-subcategories.
+There are modules and sub-modules inside the mindmap, which can also be called categories and sub-categories. The green boxes represent categories, the white boxes represent subcategories, and the yellow boxes represent nested subcategories.
 
 ![Daraz](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/045388d4-00ef-40b3-883c-c074e4d4290e)
 
@@ -37,7 +34,7 @@ There are modules and sub-modules inside the mindmap, which can also be referred
 ![test case 3](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/a4b9d0a3-d0de-4978-bfee-4d7692058011)
 
 ### Test Case Writing
-To write document test case software used - **Microsoft Excel**. 
+Test case software was used to write a document: **Microsoft Excel**. 
 <br>Here, **The total no of test cases written is - 80**  </br> **No of test case pass - 75** <br>**No of test cases failed - 5**. Also, some improvement details are given.</br>
 <br> Check out these photos of test case writing --- </br>
 
