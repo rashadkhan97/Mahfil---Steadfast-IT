@@ -65,48 +65,48 @@ Inside Coding folder there is one Folder and a Test file
 
 ## Coding Overview:
 ### Importing Statements
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.util.*;
+import java.io.BufferedReader; <br />
+import java.io.File; <br />
+import java.io.FileReader; <br />
+import java.util.*; <br />
 
 **BufferedReader, File, FileReader:** Used for reading the file.
 
 ### Main Class and Method
-public class WordCount {
-    public static void main(String[] args) throws Exception {
-        File file = new File("F:\\SQA FILE\\PROJECTS\\Internship Projects\\Mahfil - Steadfast IT\\Coding\\word.txt");
-        BufferedReader reader = new BufferedReader(new FileReader(file));
+public class WordCount { <br />
+    public static void main(String[] args) throws Exception { <br />
+        File file = new File("F:\\SQA FILE\\PROJECTS\\Internship Projects\\Mahfil - Steadfast IT\\Coding\\word.txt"); <br />
+        BufferedReader reader = new BufferedReader(new FileReader(file)); <br />
 
--**File:** Represents the file to be read
--**BufferedReader:** Reads the file line by line for efficient processing
+**File:** Represents the file to be read <br />
+**BufferedReader:** Reads the file line by line for efficient processing <br />
 
 ### Creating the Word Count Map using HashMap
- Map<String, Integer> map = new HashMap<>();
-        String line;
+ Map<String, Integer> map = new HashMap<>(); <br />
+        String line; <br />
 
--**map:** A HashMap to store words as keys and their counts as values.
--**line:** A temporary variable to store each line read from the file.
+**map:** A HashMap to store words as keys and their counts as values. <br />
+-**line:** A temporary variable to store each line read from the file. <br />
 
 ### Reading the File and Counting Words
- while ((line = reader.readLine()) != null) {
-            String[] words = line.split("\\W+");
-            for (int i = 0; i < words.length; i++) {
-                String word = words[i];
-                if (!word.isEmpty()) {
-                    word = word.toLowerCase();
-                    int count = map.getOrDefault(word, 0);
-                    map.put(word, count + 1);
-                }
-            }
-        }
-        reader.close();
+ while ((line = reader.readLine()) != null) { <br />
+            String[] words = line.split("\\W+"); <br />
+            for (int i = 0; i < words.length; i++) { <br />
+                String word = words[i]; <br />
+                if (!word.isEmpty()) { <br />
+                    word = word.toLowerCase(); <br />
+                    int count = map.getOrDefault(word, 0); <br />
+                    map.put(word, count + 1); <br />
+                } <br />
+            } <br />
+        } <br />
+        reader.close(); <br />
 
-**while ((line = reader.readLine()) != null):** Reads each line from the file until the end. \n
--**line.split("\W+"):** Splits the line into words using a regular expression that matches non-word characters.
--**for (int i = 0; i < words.length; i++):** Iterates over each word in the line.
--**if (!word.isEmpty()):** Ensures empty strings are not processed.
--**word.toLowerCase():** Converts the word to lowercase to make the count case-insensitive.
--**map.getOrDefault(word, 0):** Retrieves the current count of the word, or 0 if the word is not in the map.
--**map.put(word, count + 1):** Updates the count of the word in the map.
--**reader.close():** Closes the BufferedReader to release system resources.
+**while ((line = reader.readLine()) != null):** Reads each line from the file until the end. <br />
+**line.split("\W+"):** Splits the line into words using a regular expression that matches non-word characters. <br />
+**for (int i = 0; i < words.length; i++):** Iterates over each word in the line. <br />
+**if (!word.isEmpty()):** Ensures empty strings are not processed. <br />
+**word.toLowerCase():** Converts the word to lowercase to make the count case insensitive. <br />
+**map.getOrDefault(word, 0):** Retrieves the current count of the word, or 0 if the word is not in the map. <br />
+**map.put(word, count + 1):** Updates the count of the word in the map. <br />
+**reader.close():** Closes the BufferedReader to release system resources. <br />
