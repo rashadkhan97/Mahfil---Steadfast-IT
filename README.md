@@ -13,7 +13,7 @@
 
 # Contents
 - [Mind Map](#mind-map)
-- [Report](#report)
+- [Bug Reporting](#bug-reporting)
 - [Test Case writing](#test-case-writing)
 - [Bug Report](#bug-report)
 - [Test Metrics](#test-metrics)
@@ -46,10 +46,11 @@ Test case software was used to write a document: **Microsoft Excel**.
 
 ![wr4](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/395fd4f1-eecc-45f1-be2f-359f1f13d1cb)
 
-### Bug Report
+### Bug Reporting
 The number of bugs discovered in test case writing is concentrated in this section. As we already know from the previous section (Test Case Writing), 5 test cases failed. **#SL-5,9,14,21,34** denotes the errors identified and written on those rows in the five bug reporting boxes below.
 
-![bug reporting](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/4713e2ea-2cd2-4b36-bba5-07f6187b8556)
+![image](https://github.com/rashadkhan97/Mahfil---Steadfast-IT/assets/76771109/1dcb0a2e-a087-4c37-b212-33611fb71a31)
+
 
 ### Test Metrics
 
