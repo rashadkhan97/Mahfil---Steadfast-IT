@@ -18,7 +18,7 @@
 - [Bug Report](#bug-report)
 - [Test Metrics](#test-metrics)
 
-
+# Part 1: Manual Testing Part
 ### Mind Map
 There are modules and sub-modules inside the mindmap, which can also be called categories and sub-categories. The green boxes represent categories, the white boxes represent subcategories, and the yellow boxes represent nested subcategories.
 
