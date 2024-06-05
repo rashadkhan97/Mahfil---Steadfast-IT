@@ -1,9 +1,9 @@
 # Documentation For Mahfil App & Coding Task 
 
 ## Folders
-- **Bug Photos:** Folder containing the pictures/screenshot of the bug found while testing the App called Mahfil
--  **Coding:** Folder containing coding task part along with a txt file
--  **Manual Testing:** Folder containing testing files for Mahfil App
+- [Bug Photos](#bug-photos) Folder containing the pictures/screenshots of the bug found while testing the App called Mahfil
+- [Coding](#coding) Folder containing coding task part along with a txt file
+-  [Manual Testing](#manual-testing)  Folder containing testing files for Mahfil App
 
 ## Installation Guide 
 
