@@ -26,12 +26,10 @@ There are modules and sub-modules inside the mindmap, which can also be called c
 
 
 ### Report
+![image](https://github.com/rashadkhan97/Mahfil---Steadfast-IT/assets/76771109/73d0811e-b37d-4e50-a68b-60c549458b2b)
+![image](https://github.com/rashadkhan97/Mahfil---Steadfast-IT/assets/76771109/eff5dbfb-7c9c-49ac-83d5-df0e1c396690)
 
-![test case 1](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/22ce744b-00b7-49cc-99a3-f44e5e6a724f)
 
-![test case 2](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/221e2a7c-a2c1-4c5d-8ad6-42b1a6018643)
-
-![test case 3](https://github.com/rashadkhan97/Tast-Case-for-DARAZ/assets/76771109/a4b9d0a3-d0de-4978-bfee-4d7692058011)
 
 ### Test Case Writing
 Test case software was used to write a document: **Microsoft Excel**. 
